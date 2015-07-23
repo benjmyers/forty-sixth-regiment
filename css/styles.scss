@@ -1,0 +1,88 @@
+@import 'fonts/leaguegothic/stylesheet.css';
+@import 'fonts/lindenhill/stylesheet.css';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+body {
+    font-family: 'League Gothic';
+    font-size: 14px;
+}
+img {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4%;
+    .md {
+        font-size: 8em;
+        line-height: 1;
+    }
+    .th {
+        font-size: 20px;
+        vertical-align: top;
+    }
+}
+
+.battles {
+    text-align: center;
+    margin: 5% auto;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #fcfcfc;
+}
+.name {
+    font-size: 1.8em;
+    width: 100%;
+    text-align: center;
+    margin: 2% auto;
+}
+.contact {
+    font-family: 'LindenHill';
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    left: 1%;
+    bottom: 0;
+    font-size: 1.5em;
+    text-shadow: #ccc 1px 1px 1px;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        height: 100vh;
+        width: auto;
+    }
+    .header {
+        margin-top: 15%;
+        .sm {
+            font-size: 8em; 
+            line-height: 1.2;
+        }
+        .md {
+            font-size: 12em;
+            line-height: 1;
+        }
+        .lg {
+            font-size: 25em !important;
+            line-height: 0.9;
+        }
+        .th {
+            font-size: 36px;
+            vertical-align: top;
+        }
+    }
+
+    .battles {
+        margin: 27% auto;
+        font-size: 2.3em;
+    }
+
+    .contact {
+        margin: 27% auto;
+        font-size: 2.5em;
+    }
+
+}

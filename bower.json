@@ -1,17 +1,24 @@
 {
-	"name": "46regt",
-	"version": "0.0.1",
-	"description": "y",
-	"dependencies": {
-		"bootstrap": "~3",
-		"angular": "~1.2",
-		"angular-resource": "~1.2",
-		"angular-mocks": "~1.2",
-		"angular-animate": "~1.2",
-		"angular-touch": "~1.2",
-		"angular-sanitize": "~1.2",
-		"angular-bootstrap": "~0.11.2",
-		"angular-ui-utils": "~0.1.1",
-		"angular-ui-router": "~0.2.11"
-	}
+  "name": "forty-sixth-regiment",
+  "version": "0.0.0",
+  "homepage": "https://github.com/meredithmmyers/forty-sixth-regiment",
+  "authors": [
+    "Meredith Myers myers.mm89@gmail.com"
+  ],
+  "description": "Website for the 46th Pennsylvania Infantry",
+  "main": "main.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
 }
