@@ -7,10 +7,18 @@ body {
     font-family: 'League Gothic';
     font-size: 14px;
 }
-img {
+
+.image {
     position: fixed;
     width: 100%;
-    overflow: hidden;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../reunion.jpg');
+    background-position: center center;
+    @media screen and (max-width: 768px) {
+        background-image: url('../reunion-mobile.jpg');
+    }
 }
 .header {
     text-align: center;
@@ -19,6 +27,9 @@ img {
     .md {
         font-size: 8em;
         line-height: 1;
+        @media screen and (max-width: 768px) {
+            font-size: 5.5em;
+        }
     }
     .th {
         font-size: 20px;
@@ -38,6 +49,9 @@ img {
     width: 100%;
     text-align: center;
     margin: 2% auto;
+    @media screen and (max-width: 768px) {
+        font-size: 1.4em;
+    }
 }
 .contact {
     font-family: 'LindenHill';
@@ -47,42 +61,15 @@ img {
     left: 1%;
     bottom: 0;
     font-size: 1.5em;
-    text-shadow: #ccc 1px 1px 1px;
-}
-
-@media screen and (max-width: 768px) {
-    img {
-        height: 100vh;
-        width: auto;
-    }
-    .header {
-        margin-top: 15%;
-        .sm {
-            font-size: 8em; 
-            line-height: 1.2;
-        }
-        .md {
-            font-size: 12em;
-            line-height: 1;
-        }
-        .lg {
-            font-size: 25em !important;
-            line-height: 0.9;
-        }
-        .th {
-            font-size: 36px;
-            vertical-align: top;
+    margin: 0;
+    @media screen and (max-width: 768px) {
+        font-size: 1.2em;
+        position: inherit;
+        margin: 0;
+        margin-top: 71%;
+        div {
+            padding: 0;
+            width: 100%;
         }
     }
-
-    .battles {
-        margin: 27% auto;
-        font-size: 2.3em;
-    }
-
-    .contact {
-        margin: 27% auto;
-        font-size: 2.5em;
-    }
-
 }
