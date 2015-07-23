@@ -64,9 +64,10 @@ body {
     margin: 0;
     @media screen and (max-width: 768px) {
         font-size: 1.2em;
-        position: inherit;
-        margin: 0;
-        margin-top: 71%;
+        bottom: 4%;
+        // position: inherit;
+        // margin: 0;
+        // margin-top: 71%;
         div {
             padding: 0;
             width: 100%;

@@ -59,9 +59,7 @@ body {
   @media screen and (max-width: 768px) {
     .contact {
       font-size: 1.2em;
-      position: inherit;
-      margin: 0;
-      margin-top: 71%; }
+      bottom: 4%; }
       .contact div {
         padding: 0;
         width: 100%; } }
