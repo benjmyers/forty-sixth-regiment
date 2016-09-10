@@ -1,9 +1,8 @@
-.DS_Store
-.nodemonignore
-.sass-cache/
-npm-debug.log
+venv
+*.DS_Store
+*.pyc
+__pycache__
+*migrations/
 node_modules/
-public/lib
-app/tests/coverage/
-.bower-*/
-.idea/
+fortysixthregiment/settings.py
+.sass-cache/
