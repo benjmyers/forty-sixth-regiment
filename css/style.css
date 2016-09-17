@@ -5,63 +5,85 @@ body {
   font-family: 'League Gothic';
   font-size: 14px; }
 
+div[class^="col-"] {
+  padding: 0; }
+
 .image {
-  position: fixed;
-  width: 100%;
-  min-height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../reunion.jpg");
-  background-position: center center; }
+  background-size: contain;
+  background-image: url("../selfridge.jpg");
+  background-position: top center; }
   @media screen and (max-width: 768px) {
     .image {
-      background-image: url("../reunion-mobile.jpg"); } }
+      background-image: url("../selfridge.jpg");
+      min-width: 100vw;
+      height: 100vh;
+      background-size: cover; } }
 
-.header {
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 768px) {
+    .vertical-center {
+      display: inherit; } }
+
+.md {
+  font-size: 6em;
+  line-height: 1;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
   margin-top: 4%; }
-  .header .md {
-    font-size: 8em;
-    line-height: 1; }
-    @media screen and (max-width: 768px) {
-      .header .md {
-        font-size: 5.5em; } }
-  .header .th {
-    font-size: 20px;
-    vertical-align: top; }
+  @media (max-width: 991px) {
+    .md {
+      font-size: 5.5em; } }
+  @media screen and (max-width: 768px) {
+    .md {
+      font-size: 4em; } }
 
-.battles {
-  text-align: center;
-  margin: 5% auto;
-  text-transform: uppercase;
-  font-size: 1.3em;
-  color: #fcfcfc; }
+.th {
+  font-size: 20px;
+  vertical-align: top; }
 
 .name {
-  font-size: 1.8em;
+  font-size: 1.2em;
   width: 100%;
   text-align: center;
-  margin: 2% auto; }
+  margin: 2% auto;
+  font-family: "Georgia", serif; }
   @media screen and (max-width: 768px) {
     .name {
-      font-size: 1.4em; } }
+      font-size: 0.9em; } }
 
+@media screen and (max-width: 768px) {
+  .content-wrap,
+  .image-wrap {
+    position: fixed;
+    top: 0;
+    left: 0; }
+
+  .image-wrap {
+    z-index: 1; }
+
+  .content-wrap {
+    z-index: 10;
+    width: 100vw; } }
 .contact {
-  font-family: 'LindenHill';
-  position: fixed;
-  width: 100%;
+  font-family: 'Georgia';
   text-align: center;
-  left: 1%;
-  bottom: 0;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 0; }
   @media screen and (max-width: 768px) {
     .contact {
-      font-size: 1.2em;
-      bottom: 4%; }
-      .contact div {
-        padding: 0;
-        width: 100%; } }
+      position: fixed;
+      bottom: 20%;
+      text-shadow: 1px 1px 2px black;
+      color: white;
+      font-size: 0.8em; }
+      .contact a {
+        color: white; } }
 
 /*# sourceMappingURL=style.css.map */
