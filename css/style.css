@@ -12,14 +12,20 @@ div[class^="col-"] {
   height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("../selfridge.jpg");
+  background-image: url("../selfridge-lg.jpg");
   background-position: top center; }
+  @media screen and (max-width: 1200px) {
+    .image {
+      background-image: url("../selfridge-md.jpg"); } }
   @media screen and (max-width: 768px) {
     .image {
-      background-image: url("../selfridge.jpg");
+      background-image: url("../selfridge-sm.jpg");
       min-width: 100vw;
       height: 100vh;
       background-size: cover; } }
+  @media screen and (max-width: 500px) {
+    .image {
+      background-image: url("../selfridge-xs.jpg"); } }
 
 .vertical-center {
   min-height: 100%;
