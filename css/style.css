@@ -1,40 +1,52 @@
-@import url(fonts/leaguegothic/stylesheet.css);
-@import url(fonts/lindenhill/stylesheet.css);
+@import 'fonts/leaguegothic/stylesheet.css';
+@import 'fonts/lindenhill/stylesheet.css';
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 body {
-  font-family: 'League Gothic';
-  font-size: 14px; }
+  font-family: "League Gothic";
+  font-size: 14px;
+}
 
-div[class^="col-"] {
-  padding: 0; }
+div[class^=col-] {
+  padding: 0;
+}
 
 .image {
   height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("../selfridge-lg.jpg");
-  background-position: top center; }
-  @media screen and (max-width: 1200px) {
-    .image {
-      background-image: url("../selfridge-md.jpg"); } }
-  @media screen and (max-width: 768px) {
-    .image {
-      background-image: url("../selfridge-sm.jpg");
-      min-width: 100vw;
-      height: 100vh;
-      background-size: cover; } }
-  @media screen and (max-width: 500px) {
-    .image {
-      background-image: url("../selfridge-xs.jpg"); } }
+  background-position: top center;
+}
+@media screen and (max-width: 1200px) {
+  .image {
+    background-image: url("../images/selfridge-md.jpg");
+  }
+}
+@media screen and (max-width: 768px) {
+  .image {
+    background-image: url("../images/selfridge-sm.jpg");
+    min-width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 500px) {
+  .image {
+    background-image: url("../images/selfridge-xs.jpg");
+  }
+}
 
 .vertical-center {
   min-height: 100%;
   min-height: 100vh;
   display: flex;
-  align-items: center; }
-  @media screen and (max-width: 768px) {
-    .vertical-center {
-      display: inherit; } }
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .vertical-center {
+    display: inherit;
+  }
+}
 
 .md {
   font-size: 6em;
@@ -42,54 +54,71 @@ div[class^="col-"] {
   text-align: center;
   text-transform: uppercase;
   width: 100%;
-  margin-top: 4%; }
-  @media (max-width: 991px) {
-    .md {
-      font-size: 5.5em; } }
-  @media screen and (max-width: 768px) {
-    .md {
-      font-size: 4em; } }
+  margin-top: 4%;
+}
+@media (max-width: 991px) {
+  .md {
+    font-size: 5.5em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .md {
+    font-size: 4em;
+  }
+}
 
 .th {
   font-size: 20px;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 .name {
   font-size: 1.2em;
   width: 100%;
   text-align: center;
   margin: 2% auto;
-  font-family: "Georgia", serif; }
-  @media screen and (max-width: 768px) {
-    .name {
-      font-size: 0.9em; } }
+  font-family: "Georgia", serif;
+}
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 0.9em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .content-wrap,
-  .image-wrap {
+.image-wrap {
     position: fixed;
     top: 0;
-    left: 0; }
+    left: 0;
+  }
 
   .image-wrap {
-    z-index: 1; }
+    z-index: 1;
+  }
 
   .content-wrap {
     z-index: 10;
-    width: 100vw; } }
+    width: 100vw;
+  }
+}
 .contact {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   text-align: center;
   font-size: 1em;
-  margin: 0; }
-  @media screen and (max-width: 768px) {
-    .contact {
-      position: fixed;
-      bottom: 20%;
-      text-shadow: 1px 1px 2px black;
-      color: white;
-      font-size: 0.8em; }
-      .contact a {
-        color: white; } }
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    position: fixed;
+    bottom: 20%;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    font-size: 0.8em;
+  }
+  .contact a {
+    color: white;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
