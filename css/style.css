@@ -14,7 +14,7 @@ div[class^=col-] {
   height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("../selfridge-lg.jpg");
+  background-image: url("../images/selfridge-lg.jpg");
   background-position: top center;
 }
 @media screen and (max-width: 1200px) {
