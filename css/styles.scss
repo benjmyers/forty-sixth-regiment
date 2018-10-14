@@ -17,16 +17,16 @@ div[class^="col-"] {
     background-image: url('../selfridge-lg.jpg');
     background-position: top center;
     @media screen and (max-width: 1200px) {
-        background-image: url('../selfridge-md.jpg');
+        background-image: url('../images/selfridge-md.jpg');
     }
     @media screen and (max-width: 768px) {
-        background-image: url('../selfridge-sm.jpg');
+        background-image: url('../images/selfridge-sm.jpg');
         min-width: 100vw;
         height: 100vh;
         background-size: cover;
     }
     @media screen and (max-width: 500px) {
-        background-image: url('../selfridge-xs.jpg');
+        background-image: url('../images/selfridge-xs.jpg');
     }
 }
 

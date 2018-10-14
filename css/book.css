@@ -1,0 +1,64 @@
+@import 'fonts/leaguegothic/stylesheet.css';
+@import 'fonts/lindenhill/stylesheet.css';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+body {
+  font-family: "Linden Hill";
+  font-size: 18pt;
+  text-align: center;
+  background-color: #303030;
+  color: #f6f6f6;
+}
+
+.row {
+  padding: 4em 0;
+}
+
+img {
+  width: 100%;
+}
+
+.thumb {
+  border-radius: 50%;
+  height: 175px;
+  width: auto;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: "League Gothic";
+}
+
+.btn {
+  font-family: "League Gothic";
+  font-size: 3rem;
+}
+
+.quote-wrap {
+  background-color: #f6f6f6;
+  color: #303030;
+  font-size: 1em;
+}
+
+.quoteBody {
+  text-align: justify;
+}
+
+.quoteAttr {
+  text-align: right;
+}
+
+.about {
+  text-align: left;
+}
+
+.image-wrap {
+  height: 400px;
+  overflow: hidden;
+}
+
+.footer {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=book.css.map */
