@@ -29,9 +29,32 @@ h1 {
     font-family: 'League Gothic';
 }
 
-.btn {
+h2 {
+    font-size: 2em;
     font-family: 'League Gothic';
-    font-size: 3rem;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-size: 2rem;
+}
+
+.hand-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pointing-hand {
+    display: inline-block;
+    margin: 0 30px;
+    width: 70px;
+}
+
+.find-it {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    margin-top: 22px;
 }
 
 .quote-wrap {
@@ -53,6 +76,7 @@ h1 {
 }
 
 .image-wrap {
+    font-size: 1.25em;
     max-width: 1000px;
     margin: auto;
     padding: 0 1rem;
@@ -60,13 +84,14 @@ h1 {
     img {
         float: left;
         height: 600px;
-        margin-right: 20px;
+        margin-bottom: 16px;
+        margin-right: 30px;
         overflow: hidden;
         width: auto;
 
         @media screen and (max-width: 600px) {
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 22px;
             margin-right: 0;
             width: 98%;
         }
@@ -74,7 +99,7 @@ h1 {
 
     p {
         font-size: 0.8em;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
         margin-right: 10px;
         text-align: left;
     }
